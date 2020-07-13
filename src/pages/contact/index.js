@@ -11,7 +11,7 @@ function encode(data) {
 export default class Index extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isValidated: false }
+    this.state = { isValidated: true }
   }
 
   handleChange = (e) => {
